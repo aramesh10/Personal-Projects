@@ -1,3 +1,10 @@
+"""
+This is a basic machine learning program that takes the dimensions of the petals and sepals for multiple different iris flowers and creates an algorithms to classify the
+flower based on the given dimesions.
+
+Last modified by Aditya Ramesh - 9/15/2021
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
