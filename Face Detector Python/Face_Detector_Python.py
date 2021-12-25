@@ -1,3 +1,6 @@
+# This program can detect human and cat faces using OpenCV and already trained Haar Cascade classifiers
+# Last modified by Aditya Ramesh
+
 import cv2 as cv
 import numpy as np
 
