@@ -1,2 +1,2 @@
 # Personal-Projects
-# Side projects by Aditya Ramesh
+### Side projects by Aditya Ramesh
