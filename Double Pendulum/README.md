@@ -1,2 +1,2 @@
-Created by Aditya Ramesh.
-This programs simulates a double pendulum using MatPlotLib
+#Created by Aditya Ramesh.
+#This programs simulates a double pendulum using MatPlotLib
