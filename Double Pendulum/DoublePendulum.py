@@ -1,8 +1,12 @@
+import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 from matplotlib.animation import FuncAnimation, writers
 import math
 import numpy as np
+
+# If running through terminal, matplotlib may not animate the double pendulum properly. For now, running through VS Code is a work around for this issue
+print("If running through terminal, matplotlib may not animate the double pendulum properly. For now, running through VS Code is a work around for this issue")
 
 class Double_Pendulum:
     def __init__(self, theta1, theta2, l, m, v1, v2, g, delta_t): #theta in degrees

@@ -5,6 +5,7 @@ from sklearn.multiclass import OneVsRestClassifier
 from sklearn import preprocessing
 import pandas as pd
 
+print("Reading and setting training and test data...")
 # sets the training and testing sets and their class
 train_set = pd.read_csv('train.csv')
 train_set_actual = train_set["Activity"]
@@ -14,6 +15,7 @@ test_set = pd.read_csv('test.csv')
 test_set_actual = test_set["Activity"]
 test_set = test_set.drop(columns="Activity")
 
+print("Applying One vs. Rest Classifier...")
 # Machine learning algorithm
 clf = OneVsRestClassifier(LinearSVC()).fit(train_set, train_set_actual)
 
